@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Button</title>
+</head>
+<body>
+
+<button id="donateButton" style="background-color: #00897B; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px;">
+    Donate
+</button>
+
+<script>
+document.getElementById("donateButton").addEventListener("click", function() {
+    var unirest = require("unirest");
+    var req = unirest("GET", "https://sandbox.safaricom.co.ke/oauth/v1/generate");
+
+    req.query({
+        "grant_type": "client_credentials"
+    });
+
+    req.headers({
+        "Authorization": "Basic SWZPREdqdkdYM0FjWkFTcTdSa1RWZ2FTSklNY001RGQ6WUp4ZVcxMTZaV0dGNFIzaA=="
+    });
+
+    req.end(res => {
+        if (res.error) throw new Error(res.error);
+        console.log(res.body);
+        alert("Authorization successful!"); // Example: Show an alert message
+    });
+});
+</script>
+
+</body>
+</html>

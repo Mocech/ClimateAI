@@ -1,0 +1,250 @@
+{
+    "Crops": {
+      "Maize": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "500-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-distributed rainfall",
+        "CareInstructions": "Plant in well-drained soil with sufficient organic matter. Provide regular watering during dry periods and control weeds."
+      },
+      "Beans": {
+        "TemperatureRange": "18-25°C",
+        "RainfallRequirement": "500-800 mm annually",
+        "WeatherConditions": "Warm temperatures, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Mulch to conserve soil moisture. Provide support for climbing varieties."
+      },
+      "Tea": {
+        "TemperatureRange": "15-30°C",
+        "RainfallRequirement": "1000-2500 mm annually",
+        "WeatherConditions": "Cool to warm temperatures, abundant rainfall",
+        "CareInstructions": "Plant in acidic, well-drained soil. Prune regularly for new growth. Control pests and diseases, and apply appropriate fertilizers."
+      },
+      "Coffee": {
+        "TemperatureRange": "15-24°C",
+        "RainfallRequirement": "1500-2500 mm annually",
+        "WeatherConditions": "Mild temperatures, consistent rainfall",
+        "CareInstructions": "Plant in well-drained, acidic soil. Prune regularly and control pests and diseases."
+      },
+      "Wheat": {
+        "TemperatureRange": "10-25°C",
+        "RainfallRequirement": "Variable, moderate rainfall or irrigation",
+        "WeatherConditions": "Cool temperatures, moderate rainfall or irrigation",
+        "CareInstructions": "Plant in well-drained, fertile soil. Apply appropriate fertilizers and control weeds, pests, and diseases."
+      },
+      "Rice": {
+        "TemperatureRange": "20-35°C",
+        "RainfallRequirement": "Abundant water (flooded or irrigated fields)",
+        "WeatherConditions": "Warm temperatures, abundant water",
+        "CareInstructions": "Plant in flooded or irrigated fields with fertile soil. Manage water properly and control weeds, pests, and diseases."
+      },
+      "Horticultural crops": {
+        "TemperatureRange": "Variable",
+        "RainfallRequirement": "Variable",
+        "WeatherConditions": "Varies depending on specific crop, generally moderate temperatures and consistent moisture",
+        "CareInstructions": "Plant in well-drained, fertile soil with adequate sunlight. Provide regular watering, fertilization, and pest/disease control."
+      },
+      "Sugarcane": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "1000-2000 mm annually",
+        "WeatherConditions": "Warm temperatures, ample sunlight, well-distributed rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with consistent moisture. Control weeds and manage water properly."
+      },
+      "Sorghum": {
+        "TemperatureRange": "25-35°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in well-prepared soil with good drainage. Provide regular watering during dry periods and control weeds."
+      },
+      "Millet": {
+        "TemperatureRange": "25-35°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in well-prepared soil with good drainage. Provide regular watering during dry periods and control weeds."
+      },
+      "Cassava": {
+        "TemperatureRange": "25-35°C",
+        "RainfallRequirement": "600-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in well-drained, sandy soil with adequate moisture. Control weeds and pests."
+      },
+      "Potatoes": {
+        "TemperatureRange": "15-20°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool temperatures, consistent moisture",
+        "CareInstructions": "Plant in loose, well-drained soil with high organic matter. Provide regular watering and hilling to prevent greening."
+      },
+      "Sweet potatoes": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in loose, well-drained soil with high organic matter. Provide regular watering and weed control."
+      },
+      "Irish potatoes": {
+        "TemperatureRange": "15-20°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide regular watering and hilling to prevent greening."
+      },
+      "Barley": {
+        "TemperatureRange": "10-25°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Apply appropriate fertilizers and control weeds."
+      },
+      "Finger millet": {
+        "TemperatureRange": "25-35°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in well-prepared soil with good drainage. Provide regular watering during dry periods and control weeds."
+      },
+      "Groundnuts (peanuts)": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "500-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in sandy, well-drained soil with good moisture retention. Control weeds and provide support for climbing varieties."
+      },
+      "Sunflower": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide support for taller varieties and control pests."
+      },
+      "Cotton": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "500-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control pests, diseases, and weeds."
+      },
+      "Tobacco": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "500-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control pests and diseases and provide appropriate fertilizers."
+      },
+      "Pyrethrum": {
+        "TemperatureRange": "15-25°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool to warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control pests and diseases and harvest at the right time."
+      },
+      "Coconut": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in sandy, well-drained soil with good moisture retention. Provide regular watering and protect from strong winds."
+      },
+      "Macadamia nuts": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Prune regularly and control pests and diseases."
+      },
+      "Cashew nuts": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "1000-1500 mm annually",
+        "WeatherConditions": "Warm temperatures, moderate rainfall",
+        "CareInstructions": "Plant in sandy, well-drained soil with good moisture retention. Provide regular watering and control pests and diseases."
+      },
+      "Sesame (simsim)": {
+        "TemperatureRange": "25-35°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in well-drained soil with good moisture retention. Control weeds and provide regular watering."
+      },
+      "Soybeans": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "500-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control weeds, pests, and diseases."
+      },
+      "Pigeon peas (ndengu)": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "500-1000 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide support and control pests and diseases."
+      },
+      "Green grams (mung beans)": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Warm temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control weeds and provide support for climbing varieties."
+      },
+      "Lentils": {
+        "TemperatureRange": "15-25°C",
+        "RainfallRequirement": "300-600 mm annually",
+        "WeatherConditions": "Cool temperatures, well-drained soil, moderate rainfall",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control weeds, pests, and diseases."
+      },
+      "Bananas": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide regular watering and control pests and diseases."
+      },
+      "Mangoes": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Prune regularly and control pests and diseases."
+      },
+      "Oranges": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Prune regularly and control pests and diseases."
+      },
+      "Avocadoes": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Prune regularly and control pests and diseases."
+      },
+      "Pawpaw (papaya)": {
+        "TemperatureRange": "25-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Prune regularly and control pests and diseases."
+      },
+      "Passion fruits": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide support and control pests and diseases."
+      },
+      "Pineapples": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in well-drained, acidic soil with good moisture retention. Control weeds and provide regular watering."
+      },
+      "Watermelons": {
+        "TemperatureRange": "25-35°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Control weeds and provide regular watering."
+      },
+      "Tomatoes": {
+        "TemperatureRange": "20-30°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Warm temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide support and control pests and diseases."
+      },
+      "Onions": {
+        "TemperatureRange": "15-20°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide regular watering and control pests and diseases."
+      },
+      "Carrots": {
+        "TemperatureRange": "15-20°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool temperatures, consistent moisture",
+        "CareInstructions": "Plant in loose, well-drained soil with good moisture retention. Provide regular watering and thinning."
+      },
+      "Cabbages": {
+        "TemperatureRange": "15-20°C",
+        "RainfallRequirement": "Variable, consistent moisture",
+        "WeatherConditions": "Cool temperatures, consistent moisture",
+        "CareInstructions": "Plant in fertile, well-drained soil with good moisture retention. Provide regular watering and control pests and diseases."
+      }
+    }
+  }
