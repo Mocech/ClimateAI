@@ -409,12 +409,102 @@ font-weight: bold;
 
 /* for mobile screen view */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 700px) {
 	.footer-items {
 		width: 100%;
 	}
 }
 
-/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
+@media screen and (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
 
-/* Thanks to Computer Conversations */
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+
+    .navbar .navbar-collapse {
+        padding: 1rem;
+        background-color: #FFFFFF; /* Add background color to the navbar collapse */
+        border-top: 1px solid #EEEEEE;
+    }
+
+    .navbar-nav .nav-link {
+        color: var(--dark);
+        font-weight: 500;
+    }
+
+    .navbar .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        top: 100%;
+        left: 0;
+        right: auto;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .navbar-brand img {
+        max-height: 40px; /* Adjust navbar brand image size */
+    }
+
+    .nav-item .dropdown-menu {
+        position: static;
+        float: none;
+    }
+
+    .footer-items {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .footer-items h1 {
+        font-size: 20px;
+    }
+
+    .footer-items p {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .navbar-collapse {
+        padding: 0.5rem;
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 100%;
+    }
+
+    .footer-items {
+        padding: 10px 0;
+    }
+
+    .footer-items h1 {
+        font-size: 18px;
+    }
+
+    .footer-items p {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 449.98px) {
+    .btn-donate {
+        display: none;
+    }
+}

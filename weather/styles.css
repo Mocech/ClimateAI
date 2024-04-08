@@ -127,3 +127,54 @@ main{
 .desc{
     color: rgb(196, 255, 77);
 }
+body {
+    background: linear-gradient(45deg, rgba(183, 204, 248, 0.717), rgba(7, 43, 127, 0.679)), url('./background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#input {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+    width: 60%;
+    max-width: 300px;
+}
+
+#search {
+    background: none;
+    padding: 0.5rem 2rem;
+    color: aliceblue;
+    outline: none;
+    background: cadetblue;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Additional styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    #input {
+        width: 100%;
+        max-width: none;
+    }
+
+    #search {
+        width: 100%;
+        max-width: none;
+        margin-top: 1rem;
+    }
+}
